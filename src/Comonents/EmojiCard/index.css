@@ -1,0 +1,29 @@
+/* Write your code here. */
+.emojiContainer {
+    background-color: #ffffff33;
+    width: 200px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .emojiImage {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+  }
+  @media (max-width: 768px) {
+    .emojiContainer {
+      width: 70px;
+      height: 70px;
+      margin: 5px;
+    }
+    .emojiImage {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  

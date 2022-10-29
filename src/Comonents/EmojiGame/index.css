@@ -1,0 +1,31 @@
+.AppContainer {
+    background-image: linear-gradient(to top left, #fbc7d4, #9796f0);
+  }
+  
+  .emojiListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px 100px 40px;
+  }
+  
+  .emojiItemsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .emojiListContainer {
+      padding: 30px 10px 30px 10px;
+      height: 100vh;
+    }
+    .emojiItemsContainer {
+      padding: 0;
+    }
+  }
+  
