@@ -21,8 +21,9 @@
   
   @media (max-width: 768px) {
     .emojiListContainer {
-      padding: 30px 10px 30px 10px;
-      height: 100vh;
+      margin:10px 0 0 0;
+      padding: 0px 10px 0px 10px;
+      height: 650px;
     }
     .emojiItemsContainer {
       padding: 0;

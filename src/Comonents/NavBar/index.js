@@ -15,7 +15,7 @@ const NavBar = props => {
       {isDisplay ? null : (
         <div className="scoreContainer">
           <p className="Score">
-            Score: <span>{score}</span> | Top Score: <span>{topScore}</span>
+            Score: <span className="currentScore">{score}</span> | Top Score: <span className="topScore">{topScore}</span>
           </p>
         </div>
       )}

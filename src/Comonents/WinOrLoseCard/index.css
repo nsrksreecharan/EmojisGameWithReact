@@ -30,7 +30,12 @@
     width: 300px;
     height: 100%;
   }
-  
+  .Red{
+    color:red;
+  }
+  .Green{
+    color:#3cff00;
+  }
   .Image1 {
     visibility: hidden;
     width: 0;
@@ -54,6 +59,7 @@
   .resultName {
     margin: 0;
     padding: 0;
+    color:black;
   }
   .playAgainButton {
     width: 100px;
@@ -68,24 +74,35 @@
     margin: 10px;
   }
   @media (max-width: 768px) {
+    .resultCard{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height:660px;
+      
+    }
     .Image1 {
       visibility: visible;
-      height: 150px;
-      width: 80px;
+      height: 280px;
+      width: 180px;
     }
-  
+    .winnerCard{
+      height:500px;
+      width:250px;
+      margin:70px;
+    }
     .resultHeading {
-      font-size: 25px;
+      font-size: 35px;
     }
     .ScoreBoard {
       font-weight: 700;
-      font-size: 15px;
+      font-size: 25px;
     }
     .playAgainButton {
-      width: 100px;
-      height: 30px;
-      font-size: 12px;
-      font-weight: 700;
+      width: 130px;
+      height: 50px;
+      font-size: 17px;
+      font-weight: 800;
     }
     .Image2 {
       display: none;

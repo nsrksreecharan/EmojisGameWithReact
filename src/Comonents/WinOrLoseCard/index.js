@@ -10,13 +10,14 @@ const WinOrLoseCards = props => {
       {isWon ? (
         <div className="winnerCard">
           <div className="ResultContainer">
-            <div className="Image1">
+            <div>
               <img
                 src="https://assets.ccbp.in/frontend/react-js/won-game-img.png"
                 alt="won"
+                className="Image1"
               />
             </div>
-            <h1 className="resultHeading">You Won</h1>
+            <h1 className="resultHeading Green">You Won</h1>
             <div className="ScoreBoard">
               <p className="resultName">Best Score</p>
               <p className="finalScore">{lastScore}/12</p>
@@ -47,7 +48,7 @@ const WinOrLoseCards = props => {
                 className="Image1"
               />
             </div>
-            <h1 className="resultHeading">You Lose</h1>
+            <h1 className="resultHeading Red">You Lose</h1>
             <div className="ScoreBoard">
               <p className="resultName">Your Score</p>
               <p className="finalScore">{lastScore}/12</p>
