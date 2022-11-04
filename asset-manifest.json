@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EmojisGameWithReact/static/css/main.998ba85f.css",
+    "main.css": "/EmojisGameWithReact/static/css/main.2440c5f7.css",
     "main.js": "/EmojisGameWithReact/static/js/main.578003b1.js",
     "static/js/787.2581d1d0.chunk.js": "/EmojisGameWithReact/static/js/787.2581d1d0.chunk.js",
     "index.html": "/EmojisGameWithReact/index.html",
-    "main.998ba85f.css.map": "/EmojisGameWithReact/static/css/main.998ba85f.css.map",
+    "main.2440c5f7.css.map": "/EmojisGameWithReact/static/css/main.2440c5f7.css.map",
     "main.578003b1.js.map": "/EmojisGameWithReact/static/js/main.578003b1.js.map",
     "787.2581d1d0.chunk.js.map": "/EmojisGameWithReact/static/js/787.2581d1d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.998ba85f.css",
+    "static/css/main.2440c5f7.css",
     "static/js/main.578003b1.js"
   ]
 }
